@@ -1,0 +1,25 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ｔ／ｏ／ｈ／ｌ／ｐ／ｅ／ａ／ｋ／ｓ</title>
+    <link>http://tohlpeaks.github.io/blog/</link>
+    <description>Recent content on ｔ／ｏ／ｈ／ｌ／ｐ／ｅ／ａ／ｋ／ｓ</description>
+    <generator>Hugo - gohugo.io</generator>
+    <language>en</language>
+    <contact></contact>
+    <copyright></copyright>
+    
+        <atom:link href="http://tohlpeaks.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blogs</title>
+      <link>http://tohlpeaks.github.io/blog/blog/</link>
+      <pubDate>Tue, 07 Apr 2020 23:05:41 +0900</pubDate>
+      <author></author>
+      <guid>http://tohlpeaks.github.io/blog/blog/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
