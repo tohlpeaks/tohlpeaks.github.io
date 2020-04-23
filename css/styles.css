@@ -1,0 +1,128 @@
+/*-------------------------------------------------
+GLOBALS CLASSES
+-------------------------------------------------*/
+*{margin:0; padding:0;}
+/* layout for smartphone */
+body{font-family: 'Merriweather', 'Noto Sans' ,'Noto Sans Japanese', sans-serif ;
+     font-size: 18px;
+     background:#fff;
+    }
+a{color: #000; text-decoration-line: none;}
+h1{font-family: 'Noto Sans Japanese', sans-serif;
+   font-weight: 900;
+   font-size: 40px;
+   color:#000;}
+h2{font-family: 'Noto Sans Japanese', sans-serif;
+   font-weight: 700;
+   font-size: 18px;
+   color:#000;}
+p{font-family: 'Noto Sans Japanese', sans-serif;
+  font-weight:normal;
+  font-size: 18px;
+  color:#000;}
+*//*---------------------------------------
+GENERAL CLASS
+----------------------------------------*/
+.clear{clear: both;}
+
+.overall{}
+@media screen and (min-width: 1100px){
+.overall{width: 1100px;
+         margin: auto;}
+}
+/*-------------------------------------------------
+HEADER CLASSES
+-------------------------------------------------*/
+.header-logo{width: 100%; 
+             text-align: center;}
+/*-------------------------------------------------
+LINK CLASSES
+-------------------------------------------------*/
+.link-wrapper{height: 30px;
+              width: 100%;
+              margin: 2% 0}
+.link-wrapper ul {height: 100%;
+                  display: flex;
+                 }
+/* width = (100 / 要素数) % */
+.link-wrapper ul li{width: calc(100% / 8);
+                    height: 100%;
+                    float: left;
+                    margin-left: calc(100% / (8 * 2));
+                    list-style-type:none;
+                   }
+/*-------------------------------------------------
+MENU CLASSES
+-------------------------------------------------*/
+.menu{width: 100%;
+      margin: 1% 0;
+      text-align: center}
+/*-------------------------------------------------
+CONTENT CLASSES
+-------------------------------------------------*/
+.content{width: 100%;
+         text-align: center;
+         overflow: hidden;}
+.content h1{font-size: 24px;
+            margin: 2% 0;}
+.content h2{margin: 2% 0;}
+.content p{margin: 2% 0;}
+.content a:hover{color: #ffffff}
+.content ul {width: 100%;}
+.content ul li{width: calc((100% / 3) - 2%);
+               display: inline;
+               float: left;
+               margin: 1%;
+               list-style-type: none;
+              }
+/*-------------------------------------------------
+BLOG CLASSES
+-------------------------------------------------*/
+.blog{width: 90%; margin: auto;}
+@media screen and (min-width: 1100px){
+.blog{width: 70%; margin: auto;}
+}
+
+.blog h1{font-size: 24px; margin: 3% 0;}
+.blog h2{margin: 3% 0;}
+.blog p{margin: 3% 0;}
+.blog a:hover{color: #ffffff}
+/*-------------------------------------------------
+SLIDE ANIMATION
+-------------------------------------------------*/
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.header-logo, .link-wrapper, .menu, .content, .blog{
+  animation-name: slide-up;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+@keyframes link-blinking {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+.link-wrapper ul li a:hover, .menu h1:hover, .blog h1:hover{
+  animation-name: link-blinking;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#keyvisual {
+  overflow: hidden
+}
