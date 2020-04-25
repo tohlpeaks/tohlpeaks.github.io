@@ -1,92 +1,119 @@
 /*-------------------------------------------------
 GLOBALS CLASSES
 -------------------------------------------------*/
-*{margin:0; padding:0;}
-/* layout for smartphone */
-body{font-family: 'Merriweather', 'Noto Sans' ,'Noto Sans Japanese', sans-serif ;
-     font-size: 18px;
-     background:#fff;
-    }
-a{color: #000; text-decoration-line: none;}
-h1{font-family: 'Noto Sans Japanese', sans-serif;
-   font-weight: 900;
-   font-size: 40px;
-   color:#000;}
-h2{font-family: 'Noto Sans Japanese', sans-serif;
-   font-weight: 700;
-   font-size: 18px;
-   color:#000;}
-p{font-family: 'Noto Sans Japanese', sans-serif;
-  font-weight:normal;
+*{
+  margin: auto;
+  padding: 0;
+}
+body{
+  background:#fff;
+}
+a{
+  color: #000;
+  text-decoration-line: none;
+}
+h1{
+  font-family: 'Noto Sans Japanese', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  color:#000;
+}
+h2{
+  font-family: 'Noto Sans Japanese', sans-serif;
+  font-weight: 500;
   font-size: 18px;
-  color:#000;}
+  color:#000;
+}
+p{
+  font-family: 'Noto Sans Japanese', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color:#000;
+}
 *//*---------------------------------------
 GENERAL CLASS
 ----------------------------------------*/
-.clear{clear: both;}
-
-.overall{}
+.clear{
+  clear: both;
+}
+.overall{
+  padding: 1%;
+}
 @media screen and (min-width: 1100px){
-.overall{width: 1100px;
-         margin: auto;}
+  .overall{
+    width: 1100px;
+    margin: auto;
+    padding: 1%;
+  }
 }
 /*-------------------------------------------------
 HEADER CLASSES
 -------------------------------------------------*/
-.header-logo{width: 100%; 
-             text-align: center;}
+.header-logo{
+  width: 100%; 
+  text-align: center;
+}
 /*-------------------------------------------------
 LINK CLASSES
 -------------------------------------------------*/
-.link-wrapper{height: 30px;
-              width: 100%;
-              margin: 2% 0}
-.link-wrapper ul {height: 100%;
-                  display: flex;
-                 }
+.link-wrapper{
+  height: 30px;
+  width: 100%;            
+  margin: 2% 0;
+}
+.link-wrapper ul {
+  height: 100%;                  
+  display: flex;
+}
 /* width = (100 / 要素数) % */
-.link-wrapper ul li{width: calc(100% / 8);
-                    height: 100%;
-                    float: left;
-                    margin-left: calc(100% / (8 * 2));
-                    list-style-type:none;
-                   }
+.link-wrapper ul li{
+  width: calc(100% / 8);       
+  height: 100%;
+  float: left;
+  margin-left: calc(100% / (8 * 2));
+  list-style-type:none;                   
+}
 /*-------------------------------------------------
 MENU CLASSES
 -------------------------------------------------*/
-.menu{width: 100%;
-      margin: 1% 0;
-      text-align: center}
+.menu{
+  width: 100%;
+  margin: 1% 0;
+  text-align: center;
+}
 /*-------------------------------------------------
 CONTENT CLASSES
 -------------------------------------------------*/
-.content{width: 100%;
-         text-align: center;
-         overflow: hidden;}
-.content h1{font-size: 24px;
-            margin: 2% 0;}
-.content h2{margin: 2% 0;}
-.content p{margin: 2% 0;}
-.content a:hover{color: #ffffff}
-.content ul {width: 100%;}
-.content ul li{width: calc((100% / 3) - 2%);
-               display: inline;
-               float: left;
-               margin: 1%;
-               list-style-type: none;
-              }
-/*-------------------------------------------------
-BLOG CLASSES
--------------------------------------------------*/
-.blog{width: 90%; margin: auto;}
-@media screen and (min-width: 1100px){
-.blog{width: 70%; margin: auto;}
+.content{
+  width: 100%;
+  text-align: center;        
+  overflow: hidden;
 }
-
-.blog h1{font-size: 24px; margin: 3% 0;}
-.blog h2{margin: 3% 0;}
-.blog p{margin: 3% 0;}
-.blog a:hover{color: #ffffff}
+.content h1{
+  font-size: 24px;
+  margin: 2% 0;
+}
+.content h2{
+  margin: 2% 0;
+}
+.content p{
+  margin: 2% 0;
+}
+.content a:hover{
+  color: #ffffff
+}
+/*
+.content ul {
+  width: 100%;
+}
+.content ul li{
+  width: calc((100% / 3) - 2%);
+  display: inline;
+  float: left;
+  margin: 1%;
+  list-style-type: none;
+}
+*/
 /*-------------------------------------------------
 SLIDE ANIMATION
 -------------------------------------------------*/
@@ -122,7 +149,6 @@ SLIDE ANIMATION
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
-
 #keyvisual {
   overflow: hidden
 }
