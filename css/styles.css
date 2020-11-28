@@ -13,19 +13,19 @@ a{
   text-decoration-line: none;
 }
 h1{
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'M PLUS 1p', sans-serif;
   font-weight: 500;
   font-size: 40px;
   color:#000;
 }
 h2{
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'M PLUS 1p', sans-serif;
   font-weight: 400;
   font-size: 18px;
   color:#000;
 }
 p{
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'M PLUS 1p', sans-serif;
   font-weight: 300;
   font-size: 18px;
   color:#000;
@@ -101,7 +101,7 @@ CONTENT CLASSES
 .content a:hover{
   color: #ffffff
 }
-/*
+
 .content ul {
   width: 100%;
 }
@@ -112,7 +112,7 @@ CONTENT CLASSES
   margin: 1%;
   list-style-type: none;
 }
-*/
+
 /*-------------------------------------------------
 SLIDE ANIMATION
 -------------------------------------------------*/

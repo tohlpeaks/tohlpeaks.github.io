@@ -13,9 +13,14 @@
 <meta charset="UTF-8">
 <title>ＴｏｈＬＰｅａｋｓ</title>
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet"> 
 <link rel="icon" type="image/png" href="imgs/icon.png" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<link href="css/lightbox.css" type="text/css" rel="stylesheet" media="all" />
 </head>
+<script src="js/lightbox.js" type="text/javascript"></script>
+<script src="js/lazyimageloader.js" type="text/javascript"></script>
 <body>
   <div class="overall">
     <div class="header-logo"><a href="./"><img src="imgs/header_logo.png" width="100%" height="100%"></a></div>
@@ -169,6 +174,14 @@
       </div>
       <div class="content" id="scdl-2020" style="display:none;clear:both;">
         <p>
+          <a href="https://twitter.com/cannorin_vrc/status/1332541850813489157" target="_blank">VREAKTHRU (DJ)</a>
+          (2020-12-05, Club: The Underground, VRChat)
+        </p>
+        <p>
+          <a href="https://twitter.com/cannorin_vrc/status/1314120530509787136" target="_blank">Club: The Underground 1st Anniversary Party (DJ)</a>
+          (2020-10-30~31, Club: The Underground, VRChat)
+        </p>
+        <p>
           <a href="https://twitter.com/othermoon/status/1256199212275924992" target="_blank">#いえブ</a>
           (2020-05-03~05, ONLINE)
         </p>
@@ -301,6 +314,32 @@
           (2017-07-09, cafe domina, Nagoya)
         </p>
       </div>
+    </div>
+    <div onclick="obj=document.getElementById('vsl').style; obj.display=(obj.display=='none')?'block':'none';">
+      <div class="menu" style="cursor:pointer;">
+        <h1>Ｖ　Ｉ　Ｓ　Ｕ　Ａ　Ｌ　　Ｗ　Ｏ　Ｒ　Ｋ　Ｓ</h1>
+      </div>
+    </div>
+    <div class="content" id="vsl" style="display:none;clear:both;">
+      <ul>
+        <li>
+          <a href="imgs/visual_works/vreakthru_flyer.png" data-lightbox="visuals" data-title="VREAKTHRU flyer">
+            <img src="imgs/dummy.png" data-src="imgs/visual_works/vreakthru_flyer.png" width="100%" class="lazy">
+          </a>
+        </li>
+        <!---
+        <li>
+          <a href="imgs/visual_works/notallthesame.png" data-lightbox="visuals" data-title="TohLPeaks - Not All The Same! artwork">
+            <img src="imgs/dummy.png" data-src="imgs/visual_works/notallthesame.png" width="100%" class="lazy">
+          </a>
+        </li>
+        -->
+        <li>
+          <a href="imgs/visual_works/peakystyle.png" data-lightbox="visuals" data-title="TohLPeaks - Peakystyle artwork">
+            <img src="imgs/dummy.png" data-src="imgs/visual_works/peakystyle.png" width="100%" class="lazy">
+          </a>
+        </li>
+      </ul>
     </div>
     <div class="menu" style="cursor:pointer;">
       <a href="/blog/"><h1>Ｂ　Ｌ　Ｏ　Ｇ</h1></a>
