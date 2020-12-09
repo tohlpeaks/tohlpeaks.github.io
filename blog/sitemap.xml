@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tohlpeaks.party/blog/blog/</loc>
-    <lastmod>2020-08-16T18:36:20+09:00</lastmod>
+    <loc>https://tohlpeaks.party/blog/blog/20201209/</loc>
+    <lastmod>2020-12-09T17:35:20+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tohlpeaks.party/blog/blog/20200816/</loc>
-    <lastmod>2020-08-16T18:36:20+09:00</lastmod>
+    <loc>https://tohlpeaks.party/blog/blog/</loc>
+    <lastmod>2020-12-09T17:35:20+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://tohlpeaks.party/blog/</loc>
+    <lastmod>2020-12-09T17:35:20+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tohlpeaks.party/blog/blog/20200816/</loc>
     <lastmod>2020-08-16T18:36:20+09:00</lastmod>
   </url>
   
