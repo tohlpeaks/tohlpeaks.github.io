@@ -16,6 +16,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet"> 
 <link rel="icon" type="image/png" href="imgs/icon.png" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <link href="css/lightbox.css" type="text/css" rel="stylesheet" media="all" />
@@ -25,14 +26,14 @@
     <div class="header-logo"><a href="./"><img src="imgs/header_logo_02.png" width="100%" height="100%"></a></div>
     <div class="link-wrapper">
       <ul>
-        <li><a href="https://soundcloud.com/tohlpeaks" target="_blank"><img src="imgs/sc.png" height="100%"></a></li>
-        <li><a href="https://tohlpeaks.bandcamp.com/follow_me" target="_blank"><img src="imgs/bc.png" height="100%"></a></li>
-        <li><a href="https://www.youtube.com/channel/UCTxY8Pn-qsp4-jnGiLzk5KQ" target="_blank"><img src="imgs/yt.png" height="100%"></a></li>
-        <li><a href="https://www.instagram.com/tohlpeaks/" target="_blank"><img src="imgs/ig.png" height="100%"></a></li>
-        <li><a href="https://twitter.com/tohlpeaks" target="_blank"><img src="imgs/tw.png" height="100%"></a></li>
-        <li><a href="https://www.facebook.com/tohlpeaks" target="_blank"><img src="imgs/fb.png" height="100%"></a></li>
+        <li><a href="https://soundcloud.com/tohlpeaks" target="_blank"><img src="imgs/sc.svg" height="100%"></a></li>
+        <li><a href="https://tohlpeaks.bandcamp.com/follow_me" target="_blank"><img src="imgs/bc.svg" height="100%"></a></li>
+        <li><a href="https://www.youtube.com/channel/UCTxY8Pn-qsp4-jnGiLzk5KQ" target="_blank"><img src="imgs/yt.svg" height="100%"></a></li>
+        <li><a href="https://www.instagram.com/tohlpeaks/" target="_blank"><img src="imgs/ig.svg" height="100%"></a></li>
+        <li><a href="https://twitter.com/tohlpeaks" target="_blank"><img src="imgs/tw.svg" height="100%"></a></li>
+        <li><a href="https://www.facebook.com/tohlpeaks" target="_blank"><img src="imgs/fb.svg" height="100%"></a></li>
         <li><a href="http://sna.xxxxxxxx.jp/" target="_blank"><img src="imgs/sna.png" height="100%"></a></li>
-        <li><a href="mailto:tohlpeaks83&#64;gmail.com"><img src="imgs/mail.png" height="100%"></a></li>
+        <li><a href="mailto:tohlpeaks83&#64;gmail.com"><img src="imgs/mail.svg" height="100%"></a></li>
       </ul>
     </div>
     <div class="clear"></div> 
@@ -311,23 +312,49 @@
       </div>
     </div>
     <div class="content" id="vsl" style="display:none;clear:both;">
-      <ul>
-        <li>
-          <a href="imgs/visual_works/notallthesame.png" data-lightbox="visuals" data-title="Not All The Same! artwork">
-            <img src="imgs/dummy.png" data-src="imgs/visual_works/notallthesame.png" width="100%" class="lazy">
-          </a>
-        </li>
-        <li>
-          <a href="imgs/visual_works/vreakthru_flyer.png" data-lightbox="visuals" data-title="VREAKTHRU flyer">
-            <img src="imgs/dummy.png" data-src="imgs/visual_works/vreakthru_flyer.png" width="100%" class="lazy">
-          </a>
-        </li>
-        <li>
-          <a href="imgs/visual_works/peakystyle.png" data-lightbox="visuals" data-title="TohLPeaks - Peakystyle artwork">
-            <img src="imgs/dummy.png" data-src="imgs/visual_works/peakystyle.png" width="100%" class="lazy">
-          </a>
-        </li>
-      </ul>
+      <div onclick="obj=document.getElementById('vsl-2021').style; obj.display=(obj.display=='none')?'block':'none';">
+        <div class="menu" style="cursor:pointer;">
+          <h1>2021</h1>
+        </div>
+      </div>
+      <div class="content" id="vsl-2021" style="display:none;clear:both;">
+        <ul>
+          <li>
+            <a href="imgs/visual_works/2021/random_stem_pack_istillhate.png" data-lightbox="visuals" data-title="TOHLPEAKS RANDOM STEM PACK: istillhateeverything artwork">
+              <img src="imgs/dummy.png" data-src="imgs/visual_works/2021/random_stem_pack_istillhate_thumbnail.png" width="100%" class="lazy">
+            </a>
+          </li>
+          <li>
+            <a href="imgs/visual_works/2021/tlp_poster_202101.png" data-lightbox="visuals" data-title="TOHLPEAKS POSTER JAN. 2021">
+              <img src="imgs/dummy.png" data-src="imgs/visual_works/2021/tlp_poster_202101_thumbnail.png" width="100%" class="lazy">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div onclick="obj=document.getElementById('vsl-2020').style; obj.display=(obj.display=='none')?'block':'none';">
+        <div class="menu" style="cursor:pointer;">
+          <h1>2020</h1>
+        </div>
+      </div>
+      <div class="content" id="vsl-2020" style="display:none;clear:both;">
+        <ul>
+          <li>
+            <a href="imgs/visual_works/2020/notallthesame.png" data-lightbox="visuals" data-title="Not All The Same! artwork">
+              <img src="imgs/dummy.png" data-src="imgs/visual_works/2020/notallthesame_thumbnail.png" width="100%" class="lazy">
+            </a>
+          </li>
+          <li>
+            <a href="imgs/visual_works/2020/vreakthru_flyer.png" data-lightbox="visuals" data-title="VREAKTHRU flyer">
+              <img src="imgs/dummy.png" data-src="imgs/visual_works/2020/vreakthru_flyer_thumbnail.png" width="100%" class="lazy">
+            </a>
+          </li>
+          <li>
+            <a href="imgs/visual_works/2020/peakystyle.png" data-lightbox="visuals" data-title="TohLPeaks - Peakystyle artwork">
+              <img src="imgs/dummy.png" data-src="imgs/visual_works/2020/peakystyle.png" width="100%" class="lazy">
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
     <div class="menu" style="cursor:pointer;">
       <a href="/blog/"><h1>BLOG</h1></a>
