@@ -105,10 +105,6 @@ CONTENT CLASSES
 .content p{
   margin: 2% 0;
 }
-.content a:hover{
-  color: #ffffff
-}
-
 .content ul {
   width: 100%;
 }
@@ -148,7 +144,7 @@ SLIDE ANIMATION
     opacity: 0;
   }
 }
-.link-wrapper ul li a:hover, .menu h1:hover, .blog h1:hover{
+.link-wrapper ul li a:hover, .menu h1:hover, .blog h1:hover, .content a:hover{
   animation-name: link-blinking;
   animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
