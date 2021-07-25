@@ -1,58 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://tohlpeaks.party/blog/blog/</loc>
-    <lastmod>2021-01-13T23:52:55+09:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-07-25T00:36:24+09:00</lastmod>
+  </url><url>
+    <loc>https://tohlpeaks.party/blog/blog/20210725/</loc>
+    <lastmod>2021-07-25T00:36:24+09:00</lastmod>
+  </url><url>
+    <loc>https://tohlpeaks.party/blog/</loc>
+    <lastmod>2021-07-25T00:36:24+09:00</lastmod>
+  </url><url>
+    <loc>https://tohlpeaks.party/blog/blog/20210303/</loc>
+    <lastmod>2021-03-03T20:11:21+09:00</lastmod>
+  </url><url>
     <loc>https://tohlpeaks.party/blog/blog/20210113/</loc>
     <lastmod>2021-01-13T23:52:55+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tohlpeaks.party/blog/</loc>
-    <lastmod>2021-01-13T23:52:55+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tohlpeaks.party/blog/blog/20201209/</loc>
     <lastmod>2020-12-09T17:35:20+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tohlpeaks.party/blog/blog/20200816/</loc>
     <lastmod>2020-08-16T18:36:20+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tohlpeaks.party/blog/blog/20200805/</loc>
     <lastmod>2020-08-05T11:57:56+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tohlpeaks.party/blog/blog/20200605/</loc>
     <lastmod>2020-06-05T22:03:59+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tohlpeaks.party/blog/blog/20200501/</loc>
     <lastmod>2020-05-01T22:14:44+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tohlpeaks.party/blog/blog/20200407/</loc>
     <lastmod>2020-04-07T23:05:41+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tohlpeaks.party/blog/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://tohlpeaks.party/blog/tags/</loc>
   </url>
-  
 </urlset>
