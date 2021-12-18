@@ -13,21 +13,22 @@ body{
 a{
   color: #212121;
   text-decoration-line: none;
+  rotate(0.05deg);  //* setting for M PLUS 1p*//
 }
 h1{
-  font-family: 'Allerta Stencil', 'M PLUS 1p', sans-serif;
-  font-weight: 500;
+  font-family: 'Allerta Stencil', 'Noto Sans JP', sans-serif;
+  font-weight: 400;
   font-size: 44px;
   color:#212121;
 }
 h2{
-  font-family: 'Allerta Stencil', 'M PLUS 1p', sans-serif;
+  font-family: 'Allerta Stencil', 'Noto Sans JP', sans-serif;
   font-weight: 400;
   font-size: 24px;
   color:#212121;
 }
 p{
-  font-family: 'Noto Sans JP', serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-weight: 300;
   font-size: 20px;
   color:#212121;
