@@ -5,6 +5,24 @@ GLOBALS CLASSES
   margin: auto;
   padding: 0;
 }
+@media screen and (min-width: 1081px){
+  /* for PC */
+  html{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1080px){
+  /* for tablet PC*/
+  html{
+    font-size: 2vw;
+  }
+}
+@media screen and  (max-width: 480px){
+  /* for smartphone */
+  html{
+    font-size: 3.4vw;
+  }
+}
 body{
   background-color: #EEEEEE;
   background-image: url(../imgs/dot.png);
@@ -13,24 +31,23 @@ body{
 a{
   color: #212121;
   text-decoration-line: none;
-  rotate(0.05deg);  //* setting for M PLUS 1p*//
 }
 h1{
   font-family: 'Allerta Stencil', 'Noto Sans JP', sans-serif;
   font-weight: 400;
-  font-size: 44px;
+  font-size: 2rem;
   color:#212121;
 }
 h2{
   font-family: 'Allerta Stencil', 'Noto Sans JP', sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
   color:#212121;
 }
 p{
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 1rem;
   color:#212121;
 }
 *//*---------------------------------------
@@ -42,10 +59,9 @@ GENERAL CLASS
 .overall{
   padding: 1%;
 }
-@media screen and (min-width: 1100px){
+@media screen and (min-width: 1081px){
   .overall{
-    width: 1100px;
-    padding: 1%;
+    width: 70%;
   }
 }
 /*-------------------------------------------------
@@ -59,7 +75,7 @@ HEADER CLASSES
 LINK CLASSES
 -------------------------------------------------*/
 .link-wrapper{
-  height: 30px;
+  height: 1.5rem;
   width: 100%;            
   margin: 0.5% 0 2.5%;
 }
@@ -82,8 +98,8 @@ MENU CLASSES
 .menu{
   width: 100%;
   margin: 1% 0;
-  letter-spacing: 3.5em;
-  text-indent: 3.5em;
+  letter-spacing: 2.5rem;
+  text-indent: 2.5rem;
   text-align: center;
 }
 /*-------------------------------------------------
@@ -95,7 +111,7 @@ CONTENT CLASSES
   overflow: hidden;
 }
 .content h1{
-  font-size: 28px;
+  font-size: 1.5rem;
   letter-spacing: 0em;
   text-indent: 0em;
   margin: 2% 0;
@@ -131,7 +147,7 @@ SLIDE ANIMATION
     transform: translateY(0);
   }
 }
-.header-logo, .link-wrapper, .menu, .content, .blog{
+.header-logo, .link-wrapper, .menu, .content{
   animation-name: slide-up;
   animation-duration: 1s;
   animation-timing-function: ease-out;
@@ -145,7 +161,7 @@ SLIDE ANIMATION
     opacity: 0;
   }
 }
-.link-wrapper ul li a:hover, .menu h1:hover, .blog h1:hover, .content a:hover{
+.link-wrapper ul li a:hover, .menu h1:hover .content a:hover{
   animation-name: link-blinking;
   animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
