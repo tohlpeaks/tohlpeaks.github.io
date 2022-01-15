@@ -161,7 +161,7 @@ SLIDE ANIMATION
     opacity: 0;
   }
 }
-.link-wrapper ul li a:hover, .menu h1:hover .content a:hover{
+.link-wrapper ul li a:hover, .menu h1:hover, .content a:hover{
   animation-name: link-blinking;
   animation-duration: 0.8s;
   animation-timing-function: ease-in-out;
