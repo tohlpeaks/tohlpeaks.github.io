@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tohlpeaks.party/blog/blog/</loc>
-    <lastmod>2021-12-26T15:15:12+09:00</lastmod>
+    <loc>https://tohlpeaks.party/blog/blog/20221106/</loc>
+    <lastmod>2022-11-06T18:17:35+09:00</lastmod>
   </url><url>
-    <loc>https://tohlpeaks.party/blog/blog/20211226/</loc>
-    <lastmod>2021-12-26T15:15:12+09:00</lastmod>
+    <loc>https://tohlpeaks.party/blog/blog/</loc>
+    <lastmod>2022-11-06T18:17:35+09:00</lastmod>
   </url><url>
     <loc>https://tohlpeaks.party/blog/</loc>
+    <lastmod>2022-11-06T18:17:35+09:00</lastmod>
+  </url><url>
+    <loc>https://tohlpeaks.party/blog/blog/20211226/</loc>
     <lastmod>2021-12-26T15:15:12+09:00</lastmod>
   </url><url>
     <loc>https://tohlpeaks.party/blog/blog/20210808/</loc>
