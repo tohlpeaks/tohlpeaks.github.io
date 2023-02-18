@@ -75,7 +75,7 @@ HEADER CLASSES
 LINK CLASSES
 -------------------------------------------------*/
 .link-wrapper{
-  height: 1.5rem;
+  height: 2.5rem;
   width: 100%;            
   margin: 0.5% 0 2.5%;
 }
@@ -98,16 +98,16 @@ MENU CLASSES
 .menu{
   width: 100%;
   margin: 1% 0;
-  letter-spacing: 2.5rem;
-  text-indent: 2.5rem;
+  letter-spacing: 3rem;
+  text-indent: 3rem;
   text-align: center;
 }
 /*-------------------------------------------------
 CONTENT CLASSES
 -------------------------------------------------*/
 .content{
-  width: 100%;
-  text-align: center;  
+  width: 70%;
+  text-align: left;  
   overflow: hidden;
 }
 .content h1{
