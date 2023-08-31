@@ -25,21 +25,21 @@ GLOBALS CLASSES
   }
 }
 body{
-  background-color: #000000;
+  background-color: #eeeeee;
 }
 a{
   color: #757575;
   text-decoration-line: none;
 }
 h1{
-  font-family: 'Allerta Stencil', 'Noto Sans JP', sans-serif;
-  font-weight: 400;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 900;
   font-size: 2rem;
   color:#757575;
 }
 h2{
-  font-family: 'Allerta Stencil', 'Noto Sans JP', sans-serif;
-  font-weight: 400;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 600;
   font-size: 1.5rem;
   color:#757575;
 }
@@ -56,11 +56,11 @@ GENERAL CLASS
   clear: both;
 }
 .overall{
-  padding: 1%;
+  padding: 5%;
 }
 @media screen and (min-width: 1081px){
   .overall{
-    width: 70%;
+    width: 40%;
   }
 }
 /*-------------------------------------------------
@@ -74,7 +74,7 @@ HEADER CLASSES
 LINK CLASSES
 -------------------------------------------------*/
 .link-wrapper{
-  height: 2.5rem;
+  height: 2rem;
   width: 100%;            
   margin: 0.5% 0 2.5%;
 }
@@ -95,18 +95,19 @@ LINK CLASSES
 MENU CLASSES
 -------------------------------------------------*/
 .menu{
-  width: 100%;
-  margin: 1% 0;
-  letter-spacing: 3rem;
-  text-indent: 3rem;
-  text-align: center;
+  width: 90%;
+  margin: 1% auto;
+  letter-spacing: 1rem;
+  text-indent: 0rem;
+  text-align: left;
 }
 /*-------------------------------------------------
 CONTENT CLASSES
 -------------------------------------------------*/
 .content{
-  width: 100%;
-  text-align: center;  
+  margin: auto;
+  width: 90%;
+  text-align: left;  
   overflow: hidden;
 }
 .content h1{
