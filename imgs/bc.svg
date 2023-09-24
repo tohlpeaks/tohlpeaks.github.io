@@ -6,16 +6,20 @@
             <g id="g12">
                 <g id="g14">
                     <g id="g16">
-                        <clipPath id="_clip1">
-                            <path d="M2560,0C3973.85,0 5120,1146.15 5120,2560C5120,3973.85 3973.85,5120 2560,5120C1146.15,5120 0,3973.85 0,2560C0,1146.15 1146.15,0 2560,0Z"/>
-                        </clipPath>
-                        <g clip-path="url(#_clip1)">
-                            <g id="g22">
-                                <clipPath id="_clip2">
-                                    <rect x="0" y="0" width="5120" height="5120"/>
-                                </clipPath>
-                                <g clip-path="url(#_clip2)">
-                                    <path id="path28" d="M2560,0C3973.85,0 5120,1146.15 5120,2560C5120,3973.85 3973.85,5120 2560,5120C1146.15,5120 0,3973.85 0,2560C0,1146.15 1146.15,0 2560,0Z" style="fill:none;fill-rule:nonzero;stroke:rgb(117,117,117);stroke-width:320px;"/>
+                        <g>
+                            <clipPath id="_clip1">
+                                <path d="M2560,0C3973.85,0 5120,1146.15 5120,2560C5120,3973.85 3973.85,5120 2560,5120C1146.15,5120 0,3973.85 0,2560C0,1146.15 1146.15,0 2560,0Z"/>
+                            </clipPath>
+                            <g clip-path="url(#_clip1)">
+                                <g id="g22">
+                                    <g>
+                                        <clipPath id="_clip2">
+                                            <rect x="0" y="0" width="5120" height="5120"/>
+                                        </clipPath>
+                                        <g clip-path="url(#_clip2)">
+                                            <path id="path28" d="M2560,0C3973.85,0 5120,1146.15 5120,2560C5120,3973.85 3973.85,5120 2560,5120C1146.15,5120 0,3973.85 0,2560C0,1146.15 1146.15,0 2560,0Z" style="fill:none;fill-rule:nonzero;stroke:rgb(66,66,66);stroke-width:320px;"/>
+                                        </g>
+                                    </g>
                                 </g>
                             </g>
                         </g>
@@ -23,12 +27,14 @@
                 </g>
                 <g id="g30">
                     <g id="g32">
-                        <clipPath id="_clip3">
-                            <path d="M3057.78,1754.95L1189.97,1754.95L2062.2,3365.05L3930.03,3365.05L3057.78,1754.95"/>
-                        </clipPath>
-                        <g clip-path="url(#_clip3)">
-                            <g id="g38">
-                                <rect id="path44" x="1139.97" y="1704.95" width="2840.06" height="1710.1" style="fill:rgb(117,117,117);fill-rule:nonzero;"/>
+                        <g>
+                            <clipPath id="_clip3">
+                                <path d="M3057.78,1754.95L1189.97,1754.95L2062.2,3365.05L3930.03,3365.05L3057.78,1754.95"/>
+                            </clipPath>
+                            <g clip-path="url(#_clip3)">
+                                <g id="g38">
+                                    <rect id="path44" x="1139.97" y="1704.95" width="2840.06" height="1710.1" style="fill:rgb(66,66,66);stroke:rgb(66,66,66);stroke-width:7.5px;stroke-linejoin:round;stroke-miterlimit:2;"/>
+                                </g>
                             </g>
                         </g>
                     </g>
