@@ -28,26 +28,26 @@ body{
   background-color: #eeeeee;
 }
 a{
-  color: #424242;
+  color: #222222;
   text-decoration-line: none;
 }
 h1{
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 900;
   font-size: 2rem;
-  color:#424242;
+  color:#323232;
 }
 h2{
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
-  color:#424242;
+  color:#2e2e2e;
 }
 p{
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  color:#424242;
+  color:#222222;
 }
 *//*---------------------------------------
 GENERAL CLASS
@@ -56,7 +56,7 @@ GENERAL CLASS
   clear: both;
 }
 .overall{
-  padding: 5%;
+  padding: 2%;
 }
 @media screen and (min-width: 1081px){
   .overall{
